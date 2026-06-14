@@ -1,0 +1,24 @@
+{
+  "name": "Wealth Runway — Money Command Center",
+  "short_name": "Wealth Runway",
+  "description": "Net worth, FIRE, equity comp, debt, taxes and Social Security planning. No signup; your data stays on your device.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0f16",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
