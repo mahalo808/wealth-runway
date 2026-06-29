@@ -1090,3 +1090,63 @@ table.cmp td {
 .link--danger {
   color: var(--warn);
 }
+
+/* Advisor */
+.findings {
+  display: grid;
+  gap: 10px;
+}
+.finding {
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--muted);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 4px;
+}
+.finding strong {
+  font-size: 14px;
+}
+.finding span {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.finding--warn {
+  border-left-color: var(--warn);
+}
+.finding--watch {
+  border-left-color: var(--accent);
+}
+.finding--good {
+  border-left-color: var(--good);
+}
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.ai-box {
+  width: 100%;
+  min-height: 130px;
+  margin-top: 12px;
+  background: var(--input-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  resize: vertical;
+}
+.ai-answer {
+  margin-top: 12px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+

@@ -11,6 +11,7 @@ import IncomeEquity from "./tabs/IncomeEquity.jsx";
 import Debt from "./tabs/Debt.jsx";
 import Optimize from "./tabs/Optimize.jsx";
 import Scenarios from "./tabs/Scenarios.jsx";
+import Advisor from "./tabs/Advisor.jsx";
 
 const TABS = [
   { id: "networth", label: "Net Worth", Comp: NetWorth },
@@ -19,6 +20,7 @@ const TABS = [
   { id: "income", label: "Income & Equity", Comp: IncomeEquity },
   { id: "debt", label: "Debt", Comp: Debt },
   { id: "optimize", label: "Optimize", Comp: Optimize },
+  { id: "advisor", label: "Advisor", Comp: Advisor },
   { id: "scenarios", label: "Scenarios", Comp: Scenarios },
 ];
 
